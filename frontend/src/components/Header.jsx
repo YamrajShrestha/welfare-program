@@ -13,8 +13,8 @@ import "../css/Header.css";
 const Header = () => {
   return (
     <>
-      <section className="header-top bg-[#1E1E1E] py-1">
-        <div className="container mx-auto">
+      <section className="header-top bg-[#1E1E1E] py-1.5">
+        <div className="container mx-auto px-44">
           <div className="flex justify-between">
             <div className="flex-left">
               <ul className="flex gap-10 items-center">
@@ -38,11 +38,11 @@ const Header = () => {
               </ul>
             </div>
             <div className="flex-right">
-              <div className="social-icons text-[#9c9c9c] flex gap-2">
-                <FaXTwitter className="text-[8px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-1.5 box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaFacebookF className="text-[8px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-1.5 box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaVimeoV className="text-[8px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-1.5 box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaSkype className="text-[8px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-1.5 box-content flex items-center justify-center hover:bg-white transition-all" />
+              <div className="social-icons text-[#9c9c9c] flex gap-1.5">
+                <FaXTwitter className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaFacebookF className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaVimeoV className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaSkype className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
               </div>
             </div>
           </div>
