@@ -41,10 +41,10 @@ const Header = () => {
             </div>
             <div className="flex-right">
               <div className="social-icons text-[#9c9c9c] flex gap-1.5">
-                <FaXTwitter className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaFacebookF className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaVimeoV className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
-                <FaSkype className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaXTwitter className="text-[9px] cursor-pointer bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaFacebookF className="text-[9px] cursor-pointer bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaVimeoV className="text-[9px] cursor-pointer bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
+                <FaSkype className="text-[9px] cursor-pointer bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
               </div>
             </div>
           </div>
@@ -73,6 +73,71 @@ const Header = () => {
               </button>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="navbar">
+        <div className="container mx-auto px-44">
+          <nav>
+            <ul className="flex gap-10">
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors active"
+                  to=""
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  Features
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  Shortcodes
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  Post Types
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  Campaigns
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  News
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="font-medium text-sm hover:text-[#d43c18] transition-colors "
+                  to=""
+                >
+                  Shop
+                </Link>
+              </li>
+            </ul>
+          </nav>
         </div>
       </section>
     </>

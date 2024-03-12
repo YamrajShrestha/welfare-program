@@ -1,0 +1,19 @@
+
+.footer-top h6 {
+  position: relative;
+}
+
+.footer-top h6::before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background: #d43c18;
+  bottom: -10px;
+  left: 0;
+}
+
+.footer-bottom{
+  line-height: 50px;
+  height: 50px;
+}
