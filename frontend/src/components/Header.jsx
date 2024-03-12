@@ -8,12 +8,14 @@ import {
   FaVimeoV,
   FaSkype,
 } from "react-icons/fa6";
+import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "../css/Header.css";
 
 const Header = () => {
   return (
     <>
-      <section className="header-top bg-[#1E1E1E] py-1.5">
+      <section className="header-top bg-[#1E1E1E] py-2">
         <div className="container mx-auto px-44">
           <div className="flex justify-between">
             <div className="flex-left">
@@ -44,6 +46,31 @@ const Header = () => {
                 <FaVimeoV className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
                 <FaSkype className="text-[9px] bg-[#9c9c9c] text-[#1e1e1e] rounded-full p-[5px] box-content flex items-center justify-center hover:bg-white transition-all" />
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="heading-middle bg-[#f4f4f4] py-8">
+        <div className="container mx-auto px-44">
+          <div className="flex justify-between items-center">
+            <Link to="/" className="logo">
+              <img
+                src="image/logo-1.png"
+                alt="Welfare"
+                width={238}
+                height={45}
+                className="max-w-[238px]"
+              />
+            </Link>
+            <div className="flex-right flex gap-5 items-center">
+              <FaSearch className="text-[13px] bg-[#C4C4C4] text-white rounded-full p-[15px] box-content flex items-center justify-center" />
+              <button
+                type="submit"
+                className="bg-[#D43C18] text-white font-medium text-[15px] py-2.5 px-6 rounded-3xl hover:bg-[#0F0F0F] transition-all"
+              >
+                Donate Now!
+              </button>
             </div>
           </div>
         </div>
