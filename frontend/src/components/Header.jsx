@@ -51,7 +51,7 @@ const Header = () => {
         </div>
       </section>
 
-      <section className="heading-middle bg-[#f4f4f4] py-8">
+      <section className="heading-middle bg-[#F4F4F4] py-8">
         <div className="container mx-auto px-44">
           <div className="flex justify-between items-center">
             <Link to="/" className="logo">
@@ -76,7 +76,7 @@ const Header = () => {
         </div>
       </section>
 
-      <section className="navbar">
+      <section className="navbar bg-white">
         <div className="container mx-auto px-44">
           <nav>
             <ul className="flex gap-10">
