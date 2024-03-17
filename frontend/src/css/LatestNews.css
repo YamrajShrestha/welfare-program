@@ -1,0 +1,38 @@
+.img-holder::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+
+.img-banner:hover .img-holder::before {
+  background: #000;
+  opacity: 0.4;
+}
+
+.meta-card{
+  position: relative;
+}
+
+.arrow-one::before{
+  content: '';
+  position: absolute;
+  border: 10px solid;
+  border-color: white transparent transparent transparent;
+  bottom: -6%;
+  left: 7%;
+  z-index: 2;
+}
+
+.arrow-two::before{
+  content: '';
+  position: absolute;
+  border: 10px solid;
+  border-color: transparent transparent white transparent;
+  left: 7%;
+  top: -8%;
+}

@@ -1,0 +1,7 @@
+.poorboy{
+  background-image: url('/image/home-paralax-1.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}

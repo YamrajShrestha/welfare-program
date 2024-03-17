@@ -11,6 +11,7 @@ import {
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../css/Header.css";
+import MegaMenu from "./MegaMenu";
 
 const Header = () => {
   return (
@@ -115,7 +116,7 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm hover:text-[#d43c18] transition-colors "
-                  to=""
+                  to="/campaigns"
                 >
                   Campaigns
                 </Link>
@@ -131,7 +132,7 @@ const Header = () => {
               <li>
                 <Link
                   className="font-medium text-sm hover:text-[#d43c18] transition-colors "
-                  to=""
+                  to="/shop"
                 >
                   Shop
                 </Link>
@@ -140,6 +141,8 @@ const Header = () => {
           </nav>
         </div>
       </section>
+
+      <MegaMenu/>
     </>
   );
 };

@@ -1,0 +1,11 @@
+.text-container {
+ clear: both;
+}
+
+.letter {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 5px 33px 0px 23px;
+  line-height: 50px;
+  float: left;
+}
